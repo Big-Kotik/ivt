@@ -1,0 +1,15 @@
+[submodule "ivt-web-extension"]
+	path = ivt-web-extension
+	url = git@github.com:Big-Kotik/ivt-web-extension.git
+[submodule "ivt-client-extension"]
+	path = ivt-client-extension
+	url = git@github.com:Big-Kotik/ivt-client-extension.git
+[submodule "ivt-bot"]
+	path = ivt-bot
+	url = git@github.com:Big-Kotik/ivt-bot.git
+[submodule "ivt-pull"]
+	path = ivt-pull
+	url = git@github.com:Big-Kotik/ivt-pull.git
+[submodule "ivt-pull-api"]
+	path = ivt-pull-api
+	url = git@github.com:Big-Kotik/ivt-pull-api.git
