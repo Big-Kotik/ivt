@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  bot:
+    build: ./ivt-bot
+    environment: 
+      token: ${TOKEN}
+    entrypoint:
+      - /ivt-bot
+      - -server_addr
+      - server:7272
+  server:
+    build: ./ivt-pull
+    entrypoint: 
+    - /pull-server
+    - -port
+    - "7272"
+    ports:
+      - 7272:7272
